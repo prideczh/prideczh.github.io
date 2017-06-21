@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>舒适 100</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+		<script src="http://api.map.baidu.com/api?v=1.4"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="top">
+			<div class="w_new">
+				<ul class="left">
+					<li class="citylist">
+						<em></em>
+						<span>广州</span>
+						<a href="javascript:;">[切换城市]</a>
+					</li>
+				</ul>
+				<ul class="right">
+					<li class="loginfo">
+						你好 欢迎来到舒适100网！
+						<a href="javascript:;">[登录]</a>
+						<a href="javascript:;">[注册]</a>
+					</li>
+					<li class="sub" >
+						<dt id="nofollow">
+							<b></b>
+							<a href="javascript:;" title="我的舒适">我的舒适</a>
+						</dt>
+						<dd id="lwx_sub_content">
+							<div>
+								<a href="javascript:;" title="我的订单">我的订单</a>
+							</div>
+							<div>
+								<a href="javascript:;" title="评价晒单">评价晒单</a>
+							</div>
+							<div>
+								<a href="javascript:;" title="我的问答">我的问答</a>
+							</div>
+						</dd>
+					</li>
+					<li>
+						<a class="mycar">
+							<span></span>
+							<span>我的购物车</span>
+							<span>0</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">招商加盟</a>
+					</li>
+					<li>
+						服务电话：
+						<em>4006-918-100</em>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="header">
+			<div class="w_new">
+				<div class="logo">
+					<img src="img/logo.gif"/>
+				</div>
+				<div class="search">
+					<div class="form">
+						<form>
+							<div class="fl" style="overflow: hidden;">
+								<div>
+									<span class="choose">
+										<em>商品</em>
+										<b></b>
+									</span>
+									<ul class="hide" style="display:none;">
+										<li><a href="javascript:;" title="商品">商品</a></li>
+										<li><a href="javascript:;" title="效果图层">效果图层</a></li>
+										<li><a href="javascript:;" title="工程案例">工程案例</a></li>
+										<li><a href="javascript:;" title="文章">文章</a></li>
+										<li><a href="javascript:;" title="问答">问答</a></li>
+									</ul>
+								</div>
+								<input type="text" name="search" id="key" placeholder="搜索关键词" />
+								<ul class="related hide"></ul>
+							</div>
+							<button type="submit" id="btn-search">
+								<span class="icon"></span>
+								搜索
+							</button>
+						</form>
+					</div>
+					<span class="clr"></span>
+					<p style="color:#999;">
+						<a href="javascript:;">中央空调</a>/
+						<a href="javascript:;">地暖</a>/
+						<a href="javascript:;">暖气片</a>/
+						<a href="javascript:;">新风系统</a>/
+						<a href="javascript:;">净水</a>/
+						<a href="javascript:;">工装项目</a>
+					</p>
+				</div>
+				<div class="code">
+					<img src="img/qr_code.png"/>
+				</div>
+			</div>
+		</div>
+		<div id="nav">
+			<div class="w_new ld">
+				<div id="categorys">
+					<div class="mt">
+						<h2>
+							<a href="JavaScript:;">
+								<span class="icon"></span>
+								舒适商品分类
+							</a>
+						</h2>
+					</div>
+					<div class="mc">
+						<div class="item">
+							<span class="item-name">
+								舒适温度
+								<b></b>
+							</span>
+							<h3>
+								<a href="javascript:;" title="中央空调">中央空调</a>
+								    |
+								<a href="javascript:;" title="风管机">风管机</a>
+								<a href="javascript:;" title="暖气片">暖气片</a>
+								    |
+								<a href="javascript:;" title="地暖">地暖</a>
+							</h3>
+							<div class="item-box">
+								<dl>
+									<dt>系统类别</dt>
+									<dd>
+										<a href="javascript:;">中央空调</a>
+										|
+										<a href="javascript:;">暖气片</a>
+										|
+										<a href="javascript:;">地暖</a>
+										|
+										<a href="javascript:;">风管机</a>
+										|
+										<a href="javascript:;">水暖床片</a>
+										|
+										<a href="javascript:;">地源热泵</a>
+									</dd>
+								</dl>
+								<dl class="bra">
+									<dt>推荐产品</dt>
+									<dd>
+										<a href="javascript:;">麦克维尔</a>
+										|
+										<a href="javascript:;">松下</a>
+										|
+										<a href="javascript:;">TCL</a>
+										|
+										<a href="javascript:;">三菱重工</a>
+										|
+										<a href="javascript:;">LG</a>
+										|
+										<a href="javascript:;">特灵</a>
+										|
+										<a href="javascript:;">德地氏</a>
+										|
+										<a href="javascript:;">庆东纳碧安</a>
+										|
+										<a href="javascript:;">雅克菲</a>
+										|
+										<a href="javascript:;">德美拉得</a>
+									</dd>
+								</dl>
+								<dl class="btm">
+									<dd>
+										<a href="javascript:;"><img src="http://img.shushi100.com/2016/06/28/113802-P0yktzVU.jpg"/></a>
+										<a href="javascript:;"><img src="http://img.shushi100.com/2017/05/26/135915-mFVxtL_B.jpg"/></a>
+										<a href="javascript:;"><img src="http://img.shushi100.com/2016/06/28/114454-3FH8N9yE.jpg"/></a>
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="item">
+							<span class="item-name">
+								清洁空气
+								<b></b>
+							</span>
+							<h3>
+								<a href="javascript:;" title="新风系统">新风系统</a>
+								    |
+								<a href="javascript:;" title="中央除尘">中央除尘</a>
+							</h3>
+							<div class="item-box">
+								<dl>
+									<dt>系统类别</dt>
+									<dd>
+										<a href="javascript:;">全热交换器</a>
+										|
+										<a href="javascript:;">单向流清风</a>
+										|
+										<a href="javascript:;">壁挂式清风</a>
+										|
+										<a href="javascript:;">空气净化器</a>
+										|
+										<a href="javascript:;">水暖床片</a>
+										|
+										<a href="javascript:;">地源热泵</a>
+									</dd>
+								</dl>
+								<dl class="bra">
+									<dt>推荐产品</dt>
+									<dd>
+										<a href="javascript:;">松下</a>
+										|
+										<a href="javascript:;">霍尼韦尔</a>
+										|
+										<a href="javascript:;">三菱重工</a>
+								</dl>
+								<dl class="btm btm2">
+									<dd>
+										<a href="javascript:;"><img src="http://img.shushi100.com/2016/06/29/164507-PShV5aD4.jpg"/></a>
+										<a href="javascript:;"><img src="http://img.shushi100.com/2016/06/29/164614-E6DJjW-T.jpg"/></a>
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="item">
+							<span class="item-name">
+								健康水源
+								<b></b>
+							</span>
+							<h3>
+								<a href="javascript:;" title="中央净水">中央净水</a>
+								    |
+								<a href="javascript:;" title="中央热水">中央热水</a>
+								<a href="javascript:;" title="太阳能">太阳能</a>
+							</h3>
+							<div class="item-box">
+								<dl>
+									<dt>系统类别</dt>
+									<dd>
+										<a href="javascript:;">前置过滤器</a>
+										|
+										<a href="javascript:;">中央净水器</a>
+										|
+										<a href="javascript:;">中央饮水机</a>
+										|
+										<a href="javascript:;">直饮机</a>
+										|
+										<a href="javascript:;">中央热水</a>
+										|
+										<a href="javascript:;">太阳能</a>
+									</dd>
+								</dl>
+								<dl class="bra">
+									<dt>推荐产品</dt>
+									<dd>
+										<a href="javascript:;">恩美特</a>
+										|
+										<a href="javascript:;">捷森</a>
+										|
+										<a href="javascript:;">海林</a>
+										|
+										<a href="javascript:;">瑞美</a>
+								</dl>
+								<dl class="btm btm2">
+									<dd>
+										<a href="javascript:;"><img src="http://img.shushi100.com/2017/01/19/162913-6-an7ECy.jpg"/></a>
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="item">
+							<span class="item-name">
+								智能家居
+								<b></b>
+							</span>
+							<h3>
+								<a href="javascript:;" title="私人影院">私人影院</a>
+								    |
+								<a href="javascript:;" title="背景音乐">背景音乐</a>
+								<a href="javascript:;" title="监控安防">监控安防</a>
+								    |
+								<a href="javascript:;" title="灯光窗帘">灯光窗帘</a>
+							</h3>
+							<div class="item-box">
+								<dl>
+									<dt>系统类别</dt>
+									<dd>
+										<a href="javascript:;">监控保全</a>
+										|
+										<a href="javascript:;">安防报警</a>
+										|
+										<a href="javascript:;">门禁对讲</a>
+										|
+										<a href="javascript:;">智能灯光</a>
+										|
+										<a href="javascript:;">智能窗帘</a>
+										|
+										<a href="javascript:;">环境侦控</a>
+										|
+										<a href="javascript:;">私人影院</a>
+										|
+										<a href="javascript:;">背景音乐</a>
+									</dd>
+								</dl>
+								<dl class="bra">
+									<dt>推荐产品</dt>
+									<dd>
+										<a href="javascript:;">Control 4</a>
+								</dl>
+								<dl class="btm btm2">
+									<dd>
+										<a href="javascript:;"><img src="http://img.shushi100.com/2016/06/29/175338-iFDMvZ_z.jpg"/></a>
+										<a href="javascript:;"><img src="http://img.shushi100.com/2016/06/29/175741-RCdQLoZ0.jpg"/></a>
+									</dd>
+								</dl>
+							</div>
+						</div>
+						<div class="item">
+							<span class="item-name">
+								辅材安装
+								<b></b>
+							</span>
+							<h3>
+								<a href="javascript:;" title="安装包">安装包</a>
+								    |
+								<a href="javascript:;" title="辅材包">辅材包</a>
+							</h3>
+							<div class="item-box">
+								<dl>
+									<dt>系统类别</dt>
+									<dd>
+										<a href="javascript:;">安装包</a>
+										|
+										<a href="javascript:;">辅材包</a>
+									</dd>
+								</dl>
+								<dl class="bra">
+									<dt>推荐产品</dt>
+									<dd>
+										<a href="javascript:;">热德</a>
+								</dl>
+								<dl class="btm btm2">
+									<dd>
+										<a href="javascript:;"><img src="http://img.shushi100.com/2017/03/07/185057-27UE8Qca.jpg"/></a>
+										<a href="javascript:;"><img src="http://img.shushi100.com/2017/03/07/185214-hwYVDgR6.jpg"/></a>
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="navitems">
+					<ul class="fl">
+						<li><a href="javascript:;">首&nbsp;页</a></li>
+						<li>
+							<a href="javascript:;">
+								<em class="new-icon"></em>
+								舒适商城
+							</a>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<b></b>
+									<a href="javascript:;">
+										<em class="hot-icon"></em>
+										方案与报价
+									</a>
+								</dt>
+								<dd class="dd1">
+									<div class="nl">
+										<a href="javascript:;">免费设计方案</a>
+									</div>
+									<div>
+										<a href="javascript:;">一分钟报价</a>
+										<em class="new"></em>
+									</div>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<b></b>
+									<a href="javascript:;">
+										帮选购
+									</a>
+								</dt>
+								<dd class="dd2">
+									<div class="nl">
+										<a href="javascript:;">舒适问答</a>
+									</div>
+									<div>
+										<a href="javascript:;">学知识</a>
+									</div>
+									<div>
+										<a href="javascript:;">效果图</a>
+									</div>
+									<div>
+										<a href="javascript:;">样板房</a>
+									</div>
+								</dd>
+							</dl>
+						</li>
+						<li><a href="javascript:;">全国服务中心</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="index_new">
+			<div id="slide_banner">
+				<div class="slide_stage">
+					<ul style="width:700%">
+						<li style="width:14.285%;background-color:rgb(117,205,254);">
+							<a href="JavaScript:;" title="广州放大招"  style="background:url(http://img.shushi100.com/2017/06/06/140518-e5z88B0F.jpg) center center no-repeat;"></a>
+						</li>
+						<li style="width:14.285%;background-color: rgb(117,205,254);">
+							<a href="JavaScript:;" title="松下中央空调入住舒适100" style="background:url(http://img.shushi100.com/2017/06/09/154621-HMOJZYBB.jpg) center center no-repeat;"></a>
+						</li>
+						<li style="width:14.285%;background-color: rgb(117,205,254);">
+							<a href="JavaScript:;" title="舒适问答" style="background:url(http://img.shushi100.com/2017/05/22/085356-htCeJGsA.jpg) center center no-repeat;"></a>
+						</li>
+						<li style="width:14.285%;background-color: rgb(117,205,254);">
+							<a href="JavaScript:;" title="免费设计" style="background:url(http://img.shushi100.com/2017/03/24/195210-T5T28Ikq.jpg) center center no-repeat;"></a>
+						</li>
+						<li style="width:14.285%;background-color: rgb(117,205,254);">
+							<a href="JavaScript:;" title="又到空调启用时，你及时清洗了吗" style="background:url(http://img.shushi100.com/2017/05/25/163756-ak42kbqs.jpg) center center no-repeat;"></a>
+						</li>
+						<li style="width:14.285%;background-color: rgb(117,205,254);">
+							<a href="JavaScript:;" title="100万用户的选择" style="background:url(http://img.shushi100.com/2017/03/17/184536-ymWCdtjS.jpg) center center no-repeat;"></a>
+						</li>
+						<li style="width:14.285%;background-color:rgb(117,205,254);">
+							<a href="JavaScript:;" title="广州放大招"  style="background:url(http://img.shushi100.com/2017/06/06/140518-e5z88B0F.jpg) center center no-repeat;"></a>
+						</li>
+					</ul>
+					<div class="slide_handdler">
+						<div class="w_new">
+							<a class="current" href="javascript:;"></a>
+							<a href="javascript:;"></a>
+							<a href="javascript:;"></a>
+							<a href="javascript:;"></a>
+							<a href="javascript:;"></a>
+							<a href="javascript:;"></a>
+						</div>
+					</div>
+				</div>
+				<div id="design" style="border-top:none;">
+					
+				</div>
+				<div id="index_publicity">
+					<div class="publicity_nav">
+						<h5>选购  安装  售后</h5>
+						<ul class="lh">
+							<li>
+								<a href="javascript:;">
+									<em class="icon1"></em>
+									采暖
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<em class="icon2"></em>
+									空调
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<em class="icon3"></em>
+									新风
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;">
+									<em class="icon4"></em>
+									净水
+								</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="publicity_pro">
+						<li>
+							<a href="javascropt:;">
+								<em class="icon1"></em>
+								<p class="tit">百万用户口碑推荐</p>
+								<p>选择舒适100&nbsp;更放心&nbsp;更安心</p>
+								<i>></i>
+							</a>
+						</li>
+						<li>
+							<a href="javascropt:;">
+								<em class="icon2"></em>
+								<p class="tit">家庭案例真实见证</p>
+								<p>规范节点&nbsp;标准施工在线看</p>
+								<i>></i>
+							</a>
+						</li>
+						<li>
+							<a href="javascropt:;">
+								<em class="icon3"></em>
+								<p class="tit">工装项目解决方案</p>
+								<p>一站式集成服务&nbsp;省心更省钱</p>
+								<i>></i>
+							</a>
+						</li>
+					</ul>
+					<div class="publicity_news">
+						<p class="tit">
+							<em>舒适快报</em>
+						</p>
+						<div class="bulletin">
+							<ul>
+								<li>
+									<a href="javascript:;" title="舒适100韩英春:依托互联网构筑舒适集成020服务平台">>舒适100韩英春:依托互联网构筑舒适集成020服务平台</a>
+								</li>
+								<li>
+									<a href="javascript:;" title="深度透析:舒适生活的正确打开方式">>深度透析:舒适生活的正确打开方式</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="quick">
+			<ul class="w_new">
+				<li class="first">
+					<a href="javascript:;">
+						<i class="zp_icon"></i>
+						<dl>
+							<dt>正品低价</dt>
+							<dd>品牌首发&nbsp;&nbsp;全网低价</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<i class="ss_icon"></i>
+						<dl>
+							<dt>舒适长工</dt>
+							<dd>过程我当担&nbsp;&nbsp;效果你来评</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<i class="zx_icon"></i>
+						<dl>
+							<dt>在线监理</dt>
+							<dd>在线看工地&nbsp;&nbsp;省时更省心</dd>
+						</dl>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<i class="fa_icon"></i>
+						<dl>
+							<dt>方案设计</dt>
+							<dd>专业安装方案&nbsp;&nbsp;免费获取</dd>
+						</dl>
+					</a>
+				</li>
+				<li class="last">
+					<a href="javascript:;">
+						<i class="onem_icon"></i>
+						<dl>
+							<dt>1分钟报价</dt>
+							<dd>在线轻松获得报价</dd>
+						</dl>
+					</a>
+				</li>
+			</ul>
+			<div class="w_new bot_border">
+				<div style="width:195px; left:0px;"></div>
+			</div>
+		</div>
+		<div class="procss">
+			<div class="w_new wt">
+				<h2>乐享流程</h2>
+			</div>
+			<div class="box">
+				<div class="w_new">
+					<ol>
+						<li>
+							<div>
+								<i class="car_icon"></i>
+								<em class="flow_1"></em>
+							</div>
+							<p>
+								<strong>在线轻松选购</strong><br/>
+								选品牌/比价格
+							</p>
+						</li>
+						<li>
+							<div>
+								<i class="service_icon"></i>
+								<em class="flow_2"></em>
+							</div>
+							<p>
+								<strong>专属客服经理服务</strong><br/>
+								确保产品适合您家
+							</p>
+						</li>
+						<li>
+							<div>
+								<i class="measure_icon"></i>
+								<em class="flow_3"></em>
+							</div>
+							<p>
+								<strong>服务中心上门量房</strong><br/>
+								精准制定安装方案
+							</p>
+						</li>
+						<li>
+							<div>
+								<i class="confirm_icon"></i>
+								<em class="flow_4"></em>
+							</div>
+							<p>
+								<strong>双方确认安装方案</strong><br/>
+								签订协议/线上支付
+							</p>
+						</li>
+						<li>
+							<div>
+								<i class="setup_icon"></i>
+								<em class="flow_5"></em>
+							</div>
+							<p>
+								<strong>施工团队上门安装</strong><br/>
+								随时掌握安装进度
+							</p>
+						</li>
+						<li>
+							<div>
+								<i class="complete_icon"></i>
+								<em class="flow_6"></em>
+							</div>
+							<p>
+								<strong>工程竣工验收合格</strong><br/>
+								签送“工程保”
+							</p>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<div class="w_new">
+			<div class="project">
+				<div class="mt">
+					<h2><a href="javascript:;" title="工程案例"></a>有案例  更放心</h2>
+					<a href="javascript:;">万户工程真实见证</a>
+				</div>
+				<div class="mc">
+					<div class="gg_img">
+						<a href="javascript:;"><img src="img/anli-ad.jpg"/></a>
+					</div>
+					<div class="mc_right">
+						<div class="wempWarp" style="overflow:hidden;">
+							<div class="db" style="width: 3680px; position: relative;">
+								<ul style="width:920px;">
+									<li>
+										<a class="img" href="javascript:;">
+											<img src="http://img.shushi100.com/images/201261517619332356.jpg"/>
+										</a>
+										<div class="title">
+											<a class="a" href="javascript:;">广州有必要装地暖吗-泊岸君庭地暖...</a>
+											<div class="box">
+												<a href="javascript:;" title="地暖">地暖</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a class="img" href="javascript:;">
+											<img src="http://img.shushi100.com/images/201236164013642881.jpg"/>
+										</a>
+										<div class="title">
+											<a class="a" href="javascript:;">广州天河豪景中央空调安装工程实例...</a>
+											<div class="box">
+												<a href="javascript:;" title="五室两厅">五室两厅</a>
+												|
+												<a href="javascript:;" title="家用中央空调">家用中央空调</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a class="img" href="javascript:;">
+											<img src="http://img.shushi100.com/images/201236163441424496.jpg"/>
+										</a>
+										<div class="title">
+											<a class="a" href="javascript:;">广州中央空调安装哪家好？秀山一品...</a>
+											<div class="box">
+												<a href="javascript:;" title="四室两厅">四室两厅</a>
+												|
+												<a href="javascript:;" title="家用中央空调">家用中央空调</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<ul style="width:920px;">
+									<li>
+										<a class="img" href="javascript:;">
+											<img src="http://img.shushi100.com/images/2012321628549414.jpg"/>
+										</a>
+										<div class="title">
+											<a class="a" href="javascript:;">广州万科红郡地源热泵工程实例-空...</a>
+											<div class="box">
+												<a href="javascript:;" title="别墅">别墅</a>
+												|
+												<a href="javascript:;" title="地源热泵">地源热泵</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a class="img" href="javascript:;">
+											<img src="http://img.shushi100.com/images/201232162043596636.jpg"/>
+										</a>
+										<div class="title">
+											<a class="a" href="javascript:;">泊雅湾中央空调加壁挂炉工程案例-...</a>
+											<div class="box">
+												<a href="javascript:;" title="复式楼">复式楼</a>
+												|
+												<a href="javascript:;" title="家用中央空调">家用中央空调</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a class="img" href="javascript:;">
+											<img src="http://img.shushi100.com/images/201231163142189605.jpg"/>
+										</a>
+										<div class="title">
+											<a class="a" href="javascript:;">广州天河M-Box暖气片采暖实例...</a>
+											<div class="box">
+												<a href="javascript:;" title="两室一厅">两室一厅</a>
+												|
+												<a href="javascript:;" title="暖气片">暖气片</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<ul style="width:920px;">
+									<li>
+										<a class="img" href="javascript:;">
+											<img src="http://img.shushi100.com/images/201231162612611495.jpg"/>
+										</a>
+										<div class="title">
+											<a class="a" href="javascript:;">广州山水庄园中央空调安装-世外桃...</a>
+											<div class="box">
+												<a href="javascript:;" title="别墅">别墅</a>
+												|
+												<a href="javascript:;" title="家用中央空调">家用中央空调</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a class="img" href="javascript:;">
+											<img src="http://img.shushi100.com/images/2012229155647814268.jpg"/>
+										</a>
+										<div class="title">
+											<a class="a" href="javascript:;">广州乐活小镇中央空调安装工程案例...</a>
+											<div class="box">
+												<a href="javascript:;" title="三室两厅">三室两厅</a>
+												|
+												<a href="javascript:;" title="家用中央空调">家用中央空调</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a class="img" href="javascript:;">
+											<img src="http://img.shushi100.com/images/2012229155240674982.jpg"/>
+										</a>
+										<div class="title">
+											<a class="a" href="javascript:;">印象琶洲公寓壁挂炉采暖实例-看北...</a>
+											<div class="box">
+												<a href="javascript:;" title="地暖">地暖</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<ul style="width:920px;">
+									<li>
+										<a class="img" href="javascript:;">
+											<img src="http://img.shushi100.com/images/2013518111515892170.jpg"/>
+										</a>
+										<div class="title">
+											<a class="a" href="javascript:;">让舒适融入生活每个细节-翡翠蓝湾...</a>
+											<div class="box">
+												<a href="javascript:;" title="别墅">别墅</a>
+												|
+												<a href="javascript:;" title="地暖">地暖</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a class="img" href="javascript:;">
+											<img src="http://img.shushi100.com/images/2013518112030736693.jpg"/>
+										</a>
+										<div class="title">
+											<a class="a" href="javascript:;">海伦春天暖气片安装工程案例-精打...</a>
+											<div class="box">
+												<a href="javascript:;" title="三室两厅">三室两厅</a>
+												|
+												<a href="javascript:;" title="暖气片">暖气片</a>
+											</div>
+										</div>
+									</li>
+									<li>
+										<a class="img" href="javascript:;">
+											<img src="http://img.shushi100.com/images/2013518113729627243.jpg"/>
+										</a>
+										<div class="title">
+											<a class="a" href="javascript:;">大金LMX系列中央空调安装实例-...</a>
+											<div class="box">
+												<a href="javascript:;" title="三室两厅">三室两厅</a>
+												|
+												<a href="javascript:;" title="家用中央空调">家用中央空调</a>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="hd">
+							<a href="javascript:;" class="prev"></a>
+							<a href="javascript:;" class="next"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ask m1">
+				<div class="mt">
+					<h2>
+						<a href="javascript:;" title="舒适攻略">知你所问</a>
+					</h2>
+					<div class="extra">
+						<a href="javascript:;">
+							已有
+							<span style="color:#097be9;">1456446</span>
+							人觉得有用
+						</a>
+					</div>
+				</div>
+				<div class="mc">
+					<div class="gg_img">
+						<a href="javascript:;">
+							<img src="img/ask-ad.jpg"/>
+						</a>
+					</div>
+					<div class="mc_right">
+						<ul>
+							<li>
+								<h3><a href="javascript:;">选购指导</a></h3>
+								<a href="javascript:;" class="pro-link">
+									<img src="http://img.shushi100.com/2016/08/17/154754-dVYgJ-D4.jpg"/>
+									<div class="pro-title">
+										麦克维尔A+系列，户式中央空调高能效高水平代表
+									</div>
+								</a>
+								<div class="article-list">
+									<a href="javascript:;">● 告别纠结：新风系统or空气净化器，你该选择谁？</a>
+									<a href="javascript:;">● 干货|来自暖通专家的最全剖析：地暖辅材之分集水器</a>
+								</div>
+							</li>
+							<li>
+								<h3><a href="javascript:;">专业测评</a></h3>
+								<a href="javascript:;" class="pro-link">
+									<img src="http://img.shushi100.com/2016/08/17/161005-lpM_Lipf.jpg"/>
+									<div class="pro-title">
+										家庭新风系统工程案例分析
+									</div>
+								</a>
+								<div class="article-list">
+									<a href="javascript:;">● 净水设备评测报告及购买建议</a>
+									<a href="javascript:;">● 松下新风滤网清洗及更换教程</a>
+								</div>
+							</li>
+							<li>
+								<h3><a href="javascript:;">口碑推荐</a></h3>
+								<a href="javascript:;" class="pro-link">
+									<img src="http://img.shushi100.com/2016/08/17/164336-HZjcYH8i.jpg"/>
+									<div class="pro-title">
+										全球最实用的水系统中央空调品牌推荐
+									</div>
+								</a>
+								<div class="article-list">
+									<a href="javascript:;">● 全球地暖管十大品牌新鲜出炉</a>
+									<a href="javascript:;">● 热德高端辅材，舒适100高端用户的首选</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="m-zhaunti">
+						<ul>
+							<li>
+								<a href="javascript:;" title="舒适100-中央空调安装规范">
+									<img src="img/zhuanlan.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="中央空调规范">
+									<img src="http://img.shushi100.com/2016/06/28/080820-o-WaYYu7.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="地暖安装规范">
+									<img src="http://img.shushi100.com/2016/06/28/080844-ywtzmSX_.jpg"/>
+								</a>
+							</li>
+							<li>
+								<a href="javascript:;" title="中央净水专题">
+									<img src="http://img.shushi100.com/2016/06/28/080912-Nqf3hEg2.jpg"/>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="mall m1">
+				<div class="mt">
+					<h2>舒适商城</h2>
+					<ul class="mall-nav">
+						<li class="on">
+							<a href="javascript:;">
+								舒适温度
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								清洁空气
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								健康水源
+							</a>
+						</li>
+					</ul>
+					<div class="extra">
+						<a href="javascript:;">进入商城></a>
+					</div>
+				</div>
+				<div class="tempWrap">
+					<div class="db">
+						<table class="lwx_block_table lwx_hot_sale" style="display: block; vertical-align: top; width: 1200px;">
+							<tr>
+								<td>
+									<div class="lwx_td_content">
+										<a href="javascript:;">
+											<img src="http://img.shushi100.com/2016/06/28/082523-HAuFbUXv.jpg" class="lwx_block_img"/>
+										</a>
+									</div>
+								</td>
+								<td colspan="3">
+									<div class="lwx_td_slider">
+										<ul id="lwx_img_slider7" style="width: 2872px;">
+											<li>
+												<a href="javascript:;">
+													<img src="http://img.shushi100.com/2017/06/01/094732-TFHPg69f.jpg"  width="718" height="300" class="err-product"/>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:;">
+													<img src="http://img.shushi100.com/2017/05/09/170712-7s4HH6S2.jpg"  width="718" height="300" class="err-product"/>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:;">
+													<img src="http://img.shushi100.com/2017/05/10/090449-Mg_FCXMX.jpg"  width="718" height="300" class="err-product"/>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:;">
+													<img src="http://img.shushi100.com/2017/06/01/094732-TFHPg69f.jpg"  width="718" height="300" class="err-product"/>
+												</a>
+											</li>
+										</ul>
+										<div class="slide_handdler">
+											<div id="JS_pro_nav7">
+												<a class="current" href="javascript:;"></a>
+												<a href="javascript:;"></a>
+												<a href="javascript:;"></a>
+											</div>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="lwx_td_content">
+										<a href="javascript:;">
+											<img src="http://img.shushi100.com/2017/05/09/170515-e7vkP6rK.jpg" class="lwx_block_img" class="lwx_block_img"/>
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="三菱重工直流变频KX6-Q系列中央空调家用套餐 三房两厅130㎡ 一拖五"></a>
+											<img src="http://img.shushi100.com/2017/06/08/162940-1tG2uiEf.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">三菱重工直流变频KX6-Q系列中央空调家用套餐 三房两厅130... </p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon"></span>
+												<span class="lwx_cheap_price_">￥53940</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="特灵中央空调水系统－三房两厅130㎡家用套餐系列"></a>
+											<img src="http://img.shushi100.com/2016/06/28/104051-bBK4f9oY.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">特灵中央空调水系统－三房两厅130㎡家用套餐系列</p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon lwx_price_hot"></span>
+												<span class="lwx_cheap_price_">￥48540</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="庆东纳碧安Navien ACE-24KS系列  家用采暖水地暖（110-130㎡适用于三室两厅）"></a>
+											<img src="http://img.shushi100.com/2016/06/28/144654-HrIvhvk8.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">庆东纳碧安Navien ACE-24KS系列  家用采暖水地暖（110-1... </p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon lwx_price_great"></span>
+												<span class="lwx_cheap_price_">￥25122</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="德地氏MCR-P 24/28 MI系列家用采暖水地暖(130-155㎡适用于四室两厅)"></a>
+											<img src="http://img.shushi100.com/2016/06/28/141746-Sefzi1cs.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">德地氏MCR-P 24/28 MI系列家用采暖水地暖(130-155㎡适用... </p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon"></span>
+												<span class="lwx_cheap_price_">￥36690</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="德地氏MSL 24 MI FF 系列110-130㎡家庭采暖（水地暖）适用于三室两厅"></a>
+											<img src="http://img.shushi100.com/2016/06/28/135630-gDm4EMEA.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">德地氏MSL 24 MI FF 系列110-130㎡家庭采暖（水地暖）适... </p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon"></span>
+												<span class="lwx_cheap_price_">￥27780</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+							</tr>
+						</table>
+						<table class="lwx_block_table lwx_hot_sale" style="display: none; vertical-align: top; width: 1200px;">
+							<tr>
+								<td>
+									<div class="lwx_td_content">
+										<a href="javascript:;">
+											<img src="http://img.shushi100.com/2016/06/28/185539-G36VSVub.jpg" class="lwx_block_img"/>
+										</a>
+									</div>
+								</td>
+								<td colspan="3">
+									<div class="lwx_td_slider">
+										<ul id="lwx_img_slider8" style="width: 2154px;">
+											<li>
+												<a href="javascript:;">
+													<img src="http://img.shushi100.com/2017/05/11/175712-8THNrL1d.jpg"  width="718" height="300" class="err-product"/>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:;">
+													<img src="http://img.shushi100.com/2016/06/28/143939-HVGl6e73.jpg"  width="718" height="300" class="err-product"/>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:;">
+													<img src="http://img.shushi100.com/2017/05/11/175712-8THNrL1d.jpg"  width="718" height="300" class="err-product"/>
+												</a>
+											</li>
+										</ul>
+										<div class="slide_handdler">
+											<div id="JS_pro_nav8">
+												<a class="current" href="javascript:;"></a>
+												<a href="javascript:;"></a>
+											</div>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="lwx_td_content">
+										<a href="javascript:;">
+											<img src="http://img.shushi100.com/2016/06/28/142621-JfaLK41W.jpg" class="lwx_block_img"/>
+										</a> 
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="松下新风DC智能ERV全热交换器（适合130-180㎡三房两厅）"></a>
+											<img src="http://img.shushi100.com/2016/06/28/114626-qQwiRL-u.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">松下新风DC智能ERV全热交换器（适合130-180㎡三房两厅） </p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon lwx_price_great"></span>
+												<span class="lwx_cheap_price_">￥21230</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="松下新风系统FY-E25PMA(L) 家用全热交换器（使用面积50-80㎡）"></a>
+											<img src="http://img.shushi100.com/2016/06/28/080811-7WyE1vt1.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">松下新风系统FY-E25PMA(L) 家用全热交换器（使用面积50-8... </p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon lwx_price_hot"></span>
+												<span class="lwx_cheap_price_">￥7829</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="松下新风系统FV-02NJP1C 家用PM2.5进气风机（使用面积50-80㎡左右房屋）"></a>
+											<img src="http://img.shushi100.com/2016/06/28/085715-xzOpBafw.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">松下新风系统FV-02NJP1C 家用PM2.5进气风机（使用面积50... </p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon"></span>
+												<span class="lwx_cheap_price_">￥3989</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="松下新风系统FV-06ZWP1C 家用壁挂式全热交换器（使用面积30㎡左右房屋）"></a>
+											<img src="http://img.shushi100.com/2016/06/28/083649-o5K1hrYw.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">松下新风系统FV-06ZWP1C 家用壁挂式全热交换器（使用面... </p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon"></span>
+												<span class="lwx_cheap_price_">￥7109</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="三菱重工空气净化器Diamond系列SPD-511AC"></a>
+											<img src="http://img.shushi100.com/2016/06/28/081747-E-rYOxWd.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">三菱重工空气净化器Diamond系列SPD-511AC</p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon"></span>
+												<span class="lwx_cheap_price_">￥3280</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+							</tr>
+						</table>
+						<table class="lwx_block_table lwx_hot_sale" style=" display: none; vertical-align: top; width: 1200px;">
+							<tr>
+								<td>
+									<div class="lwx_td_content">
+										<a href="javascript:;">
+											<img src="http://img.shushi100.com/2016/06/28/180700-u5p1csQz.jpg" class="lwx_block_img"/>
+										</a>
+									</div>
+								</td>
+								<td colspan="3">
+									<div class="lwx_td_slider">
+										<ul id="lwx_img_slider9" style="width:2154px;">
+											<li>
+												<a href="javascript:;">
+													<img src="http://img.shushi100.com/2016/06/28/081938-BfIDYPbV.jpg"  width="718" height="300" class="err-product"/>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:;">
+													<img src="http://img.shushi100.com/2016/06/28/144448-M06j8PbK.jpg"  width="718" height="300" class="err-product"/>
+												</a>
+											</li>
+											<li>
+												<a href="javascript:;">
+													<img src="http://img.shushi100.com/2016/06/28/081938-BfIDYPbV.jpg"  width="718" height="300" class="err-product"/>
+												</a>
+											</li>
+										</ul>
+										<div class="slide_handdler">
+											<div id="JS_pro_nav9">
+												<a class="current" href="javascript:;"></a>
+												<a href="javascript:;"></a>
+											</div>
+										</div>
+									</div>
+								</td>
+								<td>
+									<div class="lwx_td_content">
+										<a href="javascript:;">
+											<img src="http://img.shushi100.com/2016/06/28/142848-j4BwcMMx.jpg" class="lwx_block_img"/>
+										</a> 
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="德国恩美特全屋水处理系统 中央净水(别墅)"></a>
+											<img src="http://img.shushi100.com/2016/06/28/115754-wTIIDNeP.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">德国恩美特全屋水处理系统 中央净水(别墅) </p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon"></span>
+												<span class="lwx_cheap_price_">￥22690</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="德国恩美特全屋水处理系统 中央净水(公寓型)"></a>
+											<img src="http://img.shushi100.com/2016/06/28/123403-Eb26Y6WG.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">德国恩美特全屋水处理系统 中央净水(公寓型)</p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon lwx_price_new"></span>
+												<span class="lwx_cheap_price_">￥2700</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="德国恩美特全屋水处理系统 中央净水(公寓型)"></a>
+											<img src="http://img.shushi100.com/2016/06/28/122629-Mem1U3sK.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">德国恩美特全屋水处理系统 中央净水(公寓型)</p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon"></span>
+												<span class="lwx_cheap_price_">￥4780</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="德国恩美特中央净水器 家用全屋大流量净水机OSS-1-100"></a>
+											<img src="http://img.shushi100.com/2016/06/28/095502-gzGjidkg.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">德国恩美特中央净水器 家用全屋大流量净水机OSS-1-100</p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon lwx_price_great"></span>
+												<span class="lwx_cheap_price_">￥7380</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+								<td>
+									<dl class="lwx_td_content">
+										<dd>
+											<a href="javascript:;" class="block_a" title="德国恩美特中央软水机 家用沐浴洗衣服全屋过滤净水器NS-3-39"></a>
+											<img src="http://img.shushi100.com/2016/06/28/102015-Nw5OqXyk.jpg"/>
+											<p class="is-truncated" style="word-wrap: break-word;">德国恩美特中央软水机 家用沐浴洗衣服全屋过滤净水器NS-3... </p>
+											<div class="lwx_td_price">
+												<span class="lwx_master1_icon"></span>
+												<span class="lwx_cheap_price_">￥9280</span>
+											</div>
+										</dd>
+									</dl>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="m1 service">
+				<div class="mt">
+					<h2>
+						<a href="javascript:;">选择可信赖的</a>
+					</h2>
+					<a href="javascript:;" class="tt_right_link">我们与你一路同行></a>
+				</div>
+				<div class="mc">
+					<ul class="cover_contairn">
+						<li>
+							<img width="280" height="275" src="http://img.shushi100.com/2017/03/06/190513-gMRPb6Rc.jpg" class="err-product"/>
+							<div class="cover-box" data-h-color="rgba(0, 0, 0, 0)">
+								<h5 style="background-color: rgba(0, 0, 0, 0);">发展历程</h5>
+								<p>八年高速发展，为超300万用户提供舒适家居选购、售后解决方案， 100万中高端家庭用户的口碑推荐，累计服务近10万用户。</p>
+								<a class="cover_check_more" href="javascript:;">更多查看</a>
+							</div>
+						</li>
+						<li>
+							<img width="280" height="275" src="http://img.shushi100.com/2017/03/06/190555-Cg1A0UHZ.jpg" class="err-product"/>
+							<div class="cover-box" data-h-color="rgba(0, 0, 0, 0)">
+								<h5 style="background-color: rgba(0, 0, 0, 0);">行业荣誉</h5>
+								<p>创新引领行业变革，成立以来受业界高度关注和好评，行业首创工程保、SOA、ERP、套餐售卖、辅材包、人工包、舒适工长、在线监理等20余项服务模式，受到表彰、表扬50余次。</p>
+								<a class="cover_check_more" href="javascript:;">更多查看</a>
+							</div>
+						</li>
+						<li>
+							<img width="280" height="275" src="http://img.shushi100.com/2017/03/06/190633-1CsmBsWR.jpg" class="err-product"/>
+							<div class="cover-box" data-h-color="rgba(0, 0, 0, 0)">
+								<h5 style="background-color: rgba(0, 0, 0, 0);">媒体报道</h5>
+								<p>受到20多家知名（主流）媒体以及行业内专业媒体关注报道，累计新闻报道百余篇，引起行业和消费者的普遍关注及肯定。</p>
+								<a class="cover_check_more" href="javascript:;">更多查看</a>
+							</div>
+						</li>
+						<li>
+							<img width="280" height="275" src="http://img.shushi100.com/2017/03/06/190709-5s5RHfQA.jpg" class="err-product"/>
+							<div class="cover-box" data-h-color="rgba(0, 0, 0, 0)">
+								<h5 style="background-color: rgba(0, 0, 0, 0);">用户口碑</h5>
+								<p> 7*12小时的全天候服务，2H快速响应，13万工程保，成就98.5%的用户好评，用心服务，让近10万家庭享受到高品质、零负担、有保障的舒适生活状态。</p>
+								<a class="cover_check_more" href="javascript:;">更多查看</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="m1 dz">
+				<div class="mt">
+					<h2>广州服务中心</h2>
+				</div>
+				<div class="mc">
+					<div class="gg_img" id="gg_img">
+						
+					</div>
+					<div class="mc_right dz-content">
+						<ul class="dz-top-pic">
+							<li><img src="http://www.shushi100.com/img/tiyandian1.jpg"/></li>
+							<li><img src="http://www.shushi100.com/img/tiyandian2.jpg"/></li>
+							<li><img src="http://www.shushi100.com/img/tiyandian3.jpg"/></li>
+						</ul>
+						<div class="dz-bottom-content">
+							<div class="fl">
+								<img src="http://www.shushi100.com/img/tiyandian4.jpg"/>
+							</div>
+							<div class="dz-bottom-box">
+								<ul>
+									<li>
+										<dl>
+											<dt>广州服务中心</dt>
+											<dd>服务热线：4006-918-100</dd>
+											<dd>营业时间：9:00-18:00</dd>
+											<dd>地址：广州市白云区黄石西路270号飞马装饰城G306-307 </dd>
+										</dl>
+										<a href="javascript:;" class="send-ad">
+											<i class="index-icons phone-icon"></i>
+											发送地址到手机
+										</a>
+									</li> 
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="lwx_send_address" style="display:none;">
+				<h3>
+					<span class="b-close">
+						<img src="img/send_addr_close.gif"/>
+					</span>
+					免费发送体验店地址到手机
+				</h3>
+				<div>
+					<p>
+						<span>地址：</span>
+						<span>广州市白云区黄石西路270号飞马装饰城G306-307</span>
+					</p>
+					<!--<form id="provider-sms-form">-->
+						<input type="text" id="providersmsform-mobile" class="lwx_addr_text" name="providersmsform-mobile" placeholder="请输入您的手机号"/>
+						<button class="lwx_send_btn">免费发送</button>
+						<p class="lwx_error_tips" style="color:red;display: none;">手机号码不能为空。</p>
+					<!--</form>-->
+				</div>
+			</div>
+		</div>
+		<div class="footer" style="display:;">
+			<div class="footer_wrap">
+				<div class="free_apply">
+					<i class="pic1"></i>
+					<div class="design1">
+						<div class="sur_num">
+							今日还剩
+							<span>1</span>
+							<span>4</span>
+							<span>6</span>
+							个免费名额
+						</div>
+						<div class="submit_btn">
+							<input id="design_btn" value="立即获取" type="button" />
+						</div>
+					</div>
+					<i class="pic2"></i>
+					<div class="qianggou_gif">
+						<img src="img/qianggou.gif"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom_pic" style="display:none;">
+			<div class="bottom_pic_wrap">
+				<img src="img/bottom.png"/>
+			</div>
+		</div>
+		<div class="blink">
+			<div class="w_new">
+				<a class="item" href="javascript:;">
+					<i class="icon1"></i>
+					<b>免费设计</b>
+					专业设计师量身定制
+					<span class="line"></span>
+				</a>
+				<a class="item" href="javascript:;">
+					<i class="icon2"></i>
+					<b>集成服务</b>
+					八大舒适家居系统
+					<span class="line"></span>
+				</a>
+				<a class="item" href="javascript:;">
+					<i class="icon3"></i>
+					<b>舒适长工</b>
+					过程我担当 效果你来评
+					<span class="line"></span>
+				</a>
+				<a class="item" href="javascript:;">
+					<i class="icon4"></i>
+					<b>在线监理</b>
+					手机看工地 省时省心
+					<span class="line"></span>
+				</a>
+				<a class="item" href="javascript:;">
+					<i class="icon5"></i>
+					<b>百万用户</b>
+					放心的舒适选择
+					<span class="line"></span>
+				</a>
+				<a class="item" href="javascript:;">
+					<i class="icon6"></i>
+					<b>工程保险</b>
+					13万元平安理赔
+					<span class="line"></span>
+				</a>
+			</div>
+		</div>
+		<div class="design_overlay" style="display:none;"></div>
+		<div id="service">
+			<div class="w_new">
+				<dl class="fore1">
+					<dt>如何订购</dt>
+					<dd>
+						<div><a href="javascript:;">注册新用户</a></div>
+						<div><a href="javascript:;">了解舒适家居系统</a></div>
+						<div><a href="javascript:;">服务流程</a></div>
+						<div><a href="javascript:;">常见问题解答</a></div>
+					</dd>
+				</dl>
+				<dl class="fore2">
+					<dt>免费设计</dt>
+					<dd>
+						<div><a href="javascript:;">免费获取方案设计</a></div>
+						<div><a href="javascript:;">一分钟快速报价</a></div>
+						<div><a href="javascript:;">电话预约</a></div>
+						<div><a href="javascript:;">在线咨询预约</a></div>
+					</dd>
+				</dl>
+				<dl class="fore3">
+					<dt>安全保障</dt>
+					<dd>
+						<div><a href="javascript:;">价格透明</a></div>
+						<div><a href="javascript:;">规范安装</a></div>
+						<div><a href="javascript:;">舒适100 APP</a></div>
+						<div><a href="javascript:;">平安理赔工程保</a></div>
+					</dd>
+				</dl>
+				<dl class="fore4">
+					<dt>关于我们</dt>
+					<dd>
+						<div><a href="javascript:;">全国线下体验店</a></div>
+						<div><a href="javascript:;">全国设计中心</a></div>
+						<div><a href="javascript:;">全国培训中心</a></div>
+						<div><a href="javascript:;">舒适家居电商先河</a></div>
+					</dd>
+				</dl>
+				<div class="service-contact">
+					<p class="service-phone">4006-918-100</p>
+					<p class="online-phone">4000-660-918</p>
+					<a class="service-online lwx_sb" href="javascript:;">
+						<i class="msg-icon"></i>
+						7*12小时在线客服
+					</a>
+				</div>
+				<div class="fr">
+					<div class="service-weixin"></div>
+					<p class="info-weixin">扫微信享最新优惠</p>
+				</div>
+				<div class="fr">
+					<div class="service-weixin mcode"></div>
+					<p class="info-weixin">舒适100手机版</p>
+				</div>
+			</div>
+		</div>
+		<div id="friendly_link">
+			<div class="w_new">
+				<div class="fl_title">
+					<a href="javascript:;" class="curr">友情链接</a>
+					<a href="javascript:;">热门城市</a>
+					<em class="fl_arrow_btn"></em>
+				</div>
+				<div class="fl_content">
+					<div>
+						<a href="http://www.lovenus.cn/" target="_blank">乐维斯钻戒</a>
+						<a href="http://www.xbiao.com" target="_blank">腕表之家</a>
+						<a href="http://www.xbaixing.com/" target="_blank">百姓网</a>
+						<a href="http://www.qizuang.com/" target="_blank">装修网</a>
+						<a href="http://www.jiazhuang.com/" target="_blank">家装网</a>
+						<a href="http://www.64365.com/" target="_blank">律师</a>
+						<a href="http://www.shushi100.com/keywords/" target="_blank">舒适100聚合页</a>
+						<a href="http://www.gongkong.com/" target="_blank">智能制造</a>
+						<a href="http://www.jiuzheng.com/" target="_blank">装修网  </a>
+						<a href="http://www.jc001.cn/" target="_blank">建材</a>
+						<a href="http://www.99114.com/ " target="_blank">中国网库</a>
+						<a href="http://www.yihaojiaju.com/" target="_blank">家居装修网</a>
+						<a href="http://gz.leju.com/" target="_blank">广州房产网</a>
+						<a href="http://www.jiajuol.com/" target="_blank">装修网</a>
+						<a href="http://www.18show.cn/" target="_blank">仪表展览网</a>
+						<a href="http://yp.jd.com/" target="_blank">京东优评</a>
+						<a href="http://www.zxdyw.com/" target="_blank">装修网</a>
+						<a href="http://www.jiancai365.cn/" target="_blank">建材网</a>
+					</div>
+					<div style="display: none;">
+						<a href="/beijing/" target="_blank">北京中央空调</a>
+						<a href="/shanghai/" target="_blank">上海中央空调</a>
+						<a href="/wuhan/" target="_blank">武汉中央空调</a>
+						<a href="/chengdu/" target="_blank">成都中央空调</a>
+						<a href="/shenzhen/" target="_blank">深圳中央空调</a>
+						<a href="/chongqing/" target="_blank">重庆中央空调</a>
+						<a href="/hangzhou/" target="_blank">杭州中央空调</a>
+						<a href="/changsha/" target="_blank">长沙中央空调</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="w">
+				<div class="about">
+					<a href="javascript:;">资讯中心</a>
+					|
+					<a href="javascript:;">文章专栏</a>
+					|
+					<a href="javascript:;">关于我们</a>
+					|
+					<a href="javascript:;">联系我们</a>
+					|
+					<a href="javascript:;">招商加盟</a>
+					|
+					<a href="javascript:;">商务合作</a>
+					|
+					<a href="javascript:;">帮助中心</a>
+					|
+					<a href="javascript:;">专家答疑</a>
+				</div>
+				<div class="authentication">
+					<img class="xinyu1" width="106" height="36"/>
+					<a href="javascript:;"><img class="xinyu2" width="106" height="36"/></a>
+					<a href="javascript:;"><img class="xinyu3" width="106" height="36"/></a>
+					<a href="javascript:;"><img class="xinyu4" width="106" height="36"/></a>
+				</div>
+				<div style="width:300px;margin:0 auto; padding:5px 0 0;">
+					<a href="javascript:;" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
+						<img src="img/beian_icon.png" style="float:left;"/>
+						<p style="float:left;height:20px;line-height:20px;margin: 0 0 0 5px; color:#939393;">鄂公网安备 42010202000222号</p>
+					</a>
+				</div>
+				<div class="copyright">Copyright©2009-2017  武汉舒适易佰科技有限公司  版权所有</div>
+			</div>
+		</div>
+		<div class="lwx_online_service">
+				<dl class="lwx_retract" style="display:none;">
+					<dt class="lwx_sb">
+						<img src="img/lwx_online_retract1.png"/>
+					</dt>
+					<dd class="lwx_retract_hide">
+						<img src="img/lwx_online_retract2.png"/>
+					</dd>
+				</dl>
+				<dl class="lwx_spread">
+					<dt class="lwx_sb">
+						<img src="img/lwx_online_spread1.png"/>
+					</dt>
+					<dd>
+						<a href="javascript:;" title="附近体验店">
+							<img src="img/lwx_online_spread2.png"/>
+						</a>
+					</dd>
+					<dd>
+						<a href="javascript:;" title="一分钟报价">
+							<img src="img/lwx_online_spread3.png"/>
+						</a>
+					</dd>
+					<dd>
+						<a href="javascript:;" title="免费设计">
+							<img src="img/lwx_online_spread4.png"/>
+						</a>
+					</dd>
+					<dd onclick="$('body,html').animate({scrollTop:0},300);">
+						<a href="javascript:;" title="返回顶部">
+							<img src="img/lwx_online_spread5.png"/>
+						</a>
+					</dd>
+					<dd class="lwx_spread_hide">
+							<img src="img/lwx_online_spread6.png"/>
+					</dd>
+			</dl>
+		</div>
+	</body>
+</html>
