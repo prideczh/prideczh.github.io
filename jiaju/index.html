@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			img{
+				width: 100%;
+			}
+			.subject{
+				font-size:0.9rem;
+				color: #545454;
+				margin:0.9375rem 0 0.9375rem 1rem;
+			}
+			p{
+				font-size: 0.55rem;
+				color: #545454;
+				margin:0.3rem 1rem;
+			}
+			.contant{
+				padding:2rem 0;
+			}
+			a{
+				color: #fff;
+				display:block;
+				width: 14rem;
+				height:2.5rem;
+				margin:2rem 1rem;
+				line-height:2.5rem;
+				text-align: center;
+				background:#36c254;
+			}
+		</style>
+		<meta name="viewport" content="width=320,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<body>
+		<div>
+			<img src="img/1.jpg"/>
+		</div>
+		<p class="subject">欧派家居0元设计，188位名额递减中</p>
+		<p>收纳精致生活，</p>
+		<p>扩容增大视野。</p>
+		<p>选择欧派全屋家居定制，</p>
+		<p>收纳扩容，一家搞定！</p>
+		<p>更有0元免费家具设计，</p>
+		<p>百种定制风格任你挑选！</p>
+		<div class="contant">
+			<img src="img/2.jpg"/>
+		</div>
+		<p>更有儿童房、书房、客厅、浴室等百种优质房间定制方案等你拿！</p>
+		<div><a>点击获取10秒免费报价</a></div>
+	</body>
+	
+	
+	<script type="text/javascript">
+			window.onload = window.onresize = function(){
+				var w = window.innerWidth;
+				var h = window.innerHeight;
+				
+				var num = window.devicePixelRatio;
+				var meta = document.createElement('meta');
+				var head = document.getElementsByTagName('head')[0];
+				
+				
+				num = window.devicePixelRatio>1?1/window.devicePixelRatio:1;
+				meta.name = "viewport";
+				meta.content = "width=device-width,user-scalable=no,initial-scale="+num+",minimum-scale="+num+",maximum-scale="+num;
+				
+				
+				var i = w/16;
+				document.getElementsByTagName('html')[0].style.fontSize = i+'px';
+				head.appendChild(meta);
+			}
+		</script>
+</html>
